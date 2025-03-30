@@ -25,8 +25,12 @@ body{
     background-color:  pink; /* Change background to pink */
     color: black;
 }
+
  .logo {
-    height: auto;
+    height: 700px;
+    width: 700px;
+    
+   
  }
 nav ul {
     list-style: none;
@@ -117,4 +121,52 @@ footer {
         display: block;
         margin: 10px 0;
     }
+}
+header .logo {
+    width: 50px;                  
+    height: auto;                
+    margin-right: 15px;           
+    position: relative;           
+    top: 6;                     
+    left: 15;                      
+}
+.hero {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.highlight {
+    font-size: 24px;
+    color: #FF5733; /* Or any color you prefer */
+    margin-bottom: 20px;
+}
+
+.card {
+    display: inline-block;
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
 }
